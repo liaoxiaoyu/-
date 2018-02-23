@@ -1,7 +1,7 @@
 <template>
   <div>
     <group>
-      <x-input placeholder="搜索点什么吧" placeholder-align="center"></x-input>
+      <x-input placeholder="搜索点什么吧" placeholder-align="center" :height="20"></x-input>
     </group>
     <panel :footer="footer" :list="list" :type="type" @on-click-item="handleShowDetail()"></panel>
   </div>

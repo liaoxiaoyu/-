@@ -107,7 +107,7 @@
     height: 18px;
   }
   .common {
-    font-size: 13px;
+    font-size: 10px;
     color: #999999;
     line-height: 1em;
     width: 50px;

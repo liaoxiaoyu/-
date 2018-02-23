@@ -2,7 +2,7 @@
   <div id="app">
     <router-view></router-view>
     <tabbar>
-      <tabbar-item :link="{path: '/'}">
+      <tabbar-item selected :link="{path: '/'}">
         <img slot="icon" src="./assets/icon/community.png">
         <img slot="icon-active" src="./assets/icon/community_active.png">
         <span slot="label">社区</span>
@@ -12,7 +12,7 @@
         <img slot="icon-active" src="./assets/icon/grow_active.png">
         <span slot="label">成长广场</span>
       </tabbar-item>
-      <tabbar-item selected :link="{path: '/news'}">
+      <tabbar-item  :link="{path: '/news'}">
         <img slot="icon" src="./assets/icon/news.png">
         <img slot="icon-active" src="./assets/icon/news_active.png">
         <span slot="label">发现</span>
