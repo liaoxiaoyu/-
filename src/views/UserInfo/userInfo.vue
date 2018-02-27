@@ -10,11 +10,23 @@
       </cell>
     </group>
 
-    <group></group>
     <group>
-      <cell title="孩子档案" is-link></cell>
-      <cell title="我的发表" is-link></cell>
+      <cell title="孩子档案" is-link :link="{path:'/childrenFile'}"></cell>
+      <cell title="打卡签到" is-link></cell>
+    </group>
+
+    <group>
       <cell title="我的发布" is-link></cell>
+    </group>
+
+    <group>
+      <cell title="成长日志" is-link></cell>
+      <cell title="浏览记录" is-link></cell>
+      <cell title="历史推送" is-link></cell>
+    </group>
+    <group>
+      <cell title="帮助与反馈" is-link></cell>
+      <cell title="账号设置" is-link></cell>
     </group>
   </div>
 </template>

@@ -5,6 +5,7 @@ import Community from '@/views/Community/community'
 import NewsList from '@/views/News/newsList'
 import GrowSquare from '@/views/GrowSquare/growSquare'
 import NewsDetail from '@/views/News/newsDetail'
+import ChildrenFile from '@/views/UserInfo/childrenFile'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/user',
       name: 'User',
       component: User
+    },
+    {
+      path: '/childrenFile',
+      name: 'ChildrenFile',
+      component: ChildrenFile
     }
   ]
 })
